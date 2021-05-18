@@ -7,7 +7,7 @@ class App extends Component{
 
     render(){
         return (
-            <Button type="primary" onClick={() => message.success("点击成功")}>App</Button>
+            <Button type="primary" onClick={() => message.success("点击成功！")}>App</Button>
         )
     }
 }
